@@ -261,6 +261,7 @@ body, html {
     margin-top: -120px;
     background-size: cover;
     background-position: center;
+    padding: 100px;
 }
 .poster-section {
   background-color: rgb(166, 141, 108);
@@ -322,4 +323,75 @@ body, html {
 .poster {
   margin-top: 50px;
   
+}
+.form-section {
+    margin: -120px;
+  padding: 100px 50px;
+  background-color: rgb(202, 197, 197);
+}
+
+.form-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.form-text h1 {
+    padding-top: 150px;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  line-height: 2;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  
+}
+
+.contact-form textarea {
+  resize: horizontal;
+}
+
+.contact-form button {
+  margin-top: 30px;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border: none;
+  border-radius: 12px;
+  
+  
+}
+
+.contact-form button:hover {
+  background-color: red;
+  color: white;
 }
