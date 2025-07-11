@@ -83,3 +83,59 @@ body, html {
   font-weight: 700;
   margin-top: 10px;
 }
+
+.preview-section {
+  background-color: #cac5c5;
+  padding: 80px 40px;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+
+.preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+
+.preview-text {
+  flex: 40%;
+  width: 500px;
+}
+
+.preview-text h2 {
+  font-size: 32px;
+  color: red;
+  margin-bottom: 16px;
+}
+
+.preview-text p {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 24px;
+}
+
+.preview-btn {
+  padding: 12px 20px;
+  background-color: white;
+  color:black;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  
+}
+.preview-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.preview-image img {
+  max-width: 500px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px 20px rgba(248, 3, 3, 0.1);
+}
