@@ -139,3 +139,47 @@ body, html {
   border-radius: 20px;
   box-shadow: 20px 20px 20px 20px rgba(248, 3, 3, 0.1);
 }
+.users-section {
+  background-color: #cac5c5;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.users-container {
+  background-color: #0a0b0e;
+  border-radius: 20px;
+  padding: 40px 60px;
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+
+.users-container h2 {
+  font-size: 24px;
+  color: #e6d1d1;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+.stat-box h3 {
+  font-size: 40px;
+  color: #e81e07;
+  margin-bottom: 8px;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: #eae0e0;
+}
