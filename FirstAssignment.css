@@ -183,3 +183,76 @@ body, html {
   font-size: 14px;
   color: #eae0e0;
 }
+.testimonials {
+  background-color: rgb(202, 197, 197);
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: rgb(14, 13, 13);
+}
+
+
+.testimonial-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.testimonial-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.stars {
+  color: rgb(255, 193, 7);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+  font-size: 18px;
+  color: rgb(31, 31, 31);
+  margin-bottom: 10px;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: rgb(85, 85, 85);
+  margin-bottom: 20px;
+}
+
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-info strong {
+  display: block;
+  font-size: 14px;
+  color: rgb(31, 31, 31);
+}
+
+.reviewer-info span {
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+}
